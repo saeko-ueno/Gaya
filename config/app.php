@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        KisMyFt2\Providers\AppServiceProvider::class,
+        KisMyFt2\Providers\AuthServiceProvider::class,
+        // KisMyFt2\Providers\BroadcastServiceProvider::class,
+        KisMyFt2\Providers\EventServiceProvider::class,
+        KisMyFt2\Providers\RouteServiceProvider::class,
 
     ],
 

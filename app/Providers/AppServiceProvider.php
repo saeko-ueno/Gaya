@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace KisMyFt2\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
