@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
@@ -72,6 +76,7 @@
         </nav>
 
         @yield('content')
+        @include('commons.navbar')
     </div>
 
     <!-- Scripts -->

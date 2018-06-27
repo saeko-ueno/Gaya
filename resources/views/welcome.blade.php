@@ -97,7 +97,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                      YOU <a href=#><span class='heart'> ❤ </span> </a> KisMyFt2           </div>
+                      YOU <a href=#><span class='heart'> ❤ </span> KisMyFt2 </a>          </div>
         </div>
     </body>
 </html>

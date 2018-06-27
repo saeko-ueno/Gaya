@@ -60,6 +60,20 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                             </div>
                         </div>
+                        
+                        <div class="form-group{{ $errors->has('member') ? ' has-error' : '' }}">
+                            <label for="member" class="col-md-4 control-label">Member You Like</label>
+
+                            <div class="col-md-6">
+                                <input id="member" type="text" class="form-control" name="member" value="{{ old('member') }}" required autofocus>
+
+                                @if ($errors->has('member'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('member') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
