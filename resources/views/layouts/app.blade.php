@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
 <head>
@@ -12,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Top Page') }}</title>
+    c
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
