@@ -14,15 +14,7 @@
                         </div>
                     @endif
 
-
-        function greeting($hour){
-            if(6<=$hour<12){
-                $result=return <img src="img/morning.jpeg">;
-            }
-              print $result    
-            }
-        }
-?>
+              {{print $result}}    
                 </div>
             </div>
         </div>
