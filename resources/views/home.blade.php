@@ -16,6 +16,7 @@
 
               {{print $result}}    
                 </div>
+            <a href="{{ route('discography') }}">Discography</a>
             </div>
         </div>
     </div>

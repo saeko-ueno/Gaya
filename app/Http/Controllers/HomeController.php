@@ -47,4 +47,14 @@ class HomeController extends Controller
         ['hour'=>$hour,
          'result'=>$result]);
     }
+    
+       public function discography()
+    {   
+    
+        return view('discography'
+        );
+    }
+    
+    
+    
 }
