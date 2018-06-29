@@ -14,15 +14,9 @@
                         </div>
                     @endif
 
-
-                    @if(6<=$hour<12)
-                       <img src="img/morning.jpeg">;
-                    @elseif(12<=$hour<18)
-                        <img src="img/hello!!.jpg"
-                    @else
-                         <img src="img/good night.jpeg">
- 
+              {{print $result}}    
                 </div>
+            <a href="{{ route('discography') }}">Discography</a>
             </div>
         </div>
     </div>

@@ -97,7 +97,9 @@
 
             <div class="content">
                 <div class="title m-b-md">
+
                       YOU <a href=#><span class='heart'> ❤ </span> 乃木坂46  </a></div>
+
         </div>
     </body>
 </html>
