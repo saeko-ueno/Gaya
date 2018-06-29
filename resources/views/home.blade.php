@@ -15,14 +15,13 @@
                     @endif
 
 
-        function greeting($hour){
-            if(6<=$hour<12){
-                $result=return <img src="img/morning.jpeg">;
-            }
-              print $result    
-            }
-        }
-?>
+                    @if(6<=$hour<12)
+                       <img src="img/morning.jpeg">;
+                    @elseif(12<=$hour<18)
+                        <img src="img/hello!!.jpg"
+                    @else
+                         <img src="img/good night.jpeg">
+ 
                 </div>
             </div>
         </div>

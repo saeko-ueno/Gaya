@@ -1,6 +1,6 @@
 <?php
-
-namespace KisMyFt2\Http\Controllers;
+ 
+namespace Http\Controllers\Auth;
 
 use Illuminate\Http\Request;
 
